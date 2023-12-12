@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scrollbar-gutter: stable;
+}
+
+.notion-header {
+  display: none;
+}
+
+.notion-hash-link {
+  display: none;
+}
+
+.notion-collection-page-properties {
+  display: none !important;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+  margin-top: 72px;
+  margin-bottom: 72px;
+  z-index: 0 !important;
+}
+.customModal {
+  background: #b2dbbf !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  margin-top: 72px !important;
+  margin-bottom: 72px !important;
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom-number-input input:focus {
+  outline: none !important;
+}
+
+.custom-number-input button:focus {
+  outline: none !important;
+}
